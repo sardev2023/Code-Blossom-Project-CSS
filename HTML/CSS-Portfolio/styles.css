@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: #444;
+    color: white;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+.profile {
+    margin-right: 2em;
+    text-align: left;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #333;
+    object-fit: cover;
+    margin: 20px;
+    padding: 10px;
+}
+
+.profile h2 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.profile p {
+    color: #666;
+    font-style: italic;
+}
+
+.projects {
+    text-align: left;
+}
+
+.project {
+    background-color: white;
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.extra-content {
+    text-align: left;
+    margin: 2em;
+}
+
+.extra-content h4 {
+    margin-bottom: 0.5em;
+}
+
+.extra-content p {
+    border: 2px dotted #007BFF;
+    padding: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
